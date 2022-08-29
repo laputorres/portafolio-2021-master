@@ -104,20 +104,23 @@ body::-webkit-scrollbar-thumb {
     transition: all ease-in-out 0.5s;
 }
 
-#header  input{
+#header  .mi-cv{
     margin: 15px auto;
     display: block;
     width: 120px;
     height: 32px;
     color: var(--color4);
-   
+   text-align: center;
+   font-size: 1.2rem;
+   font-weight: 900;
+   border: 1px solid var(--color4);
     border-radius: 50px;
 background: #1d2833;
 box-shadow:  5px 5px 100px #0c1014,
              -5px -5px 100px #2e4052;
 }
 
-#header  input:hover{
+#header  .mi-cv:hover{
     border-radius: 50px;
     background: #1d2833;
     box-shadow: inset 5px 5px 8px #0c1014,
